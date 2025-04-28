@@ -2,9 +2,8 @@ body {
     margin: 0;
     padding: 0;
     font-family: 'Audiowide', cursive;
-    background: linear-gradient(135deg, #F7E7CE 0%, #ffffff 100%);
-    color: #0066ff;
-    background-attachment: fixed;
+    background-color: #ffffff; /* Fond blanc */
+    color: #003366; /* Bleu plus foncé pour la police */
 }
 
 header {
@@ -12,18 +11,18 @@ header {
     padding: 80px 20px;
     background: rgba(255, 255, 255, 0.2);
     backdrop-filter: blur(10px);
-    border-bottom: 2px solid #0066ff;
+    border-bottom: 2px solid #003366;
 }
 
 h1 {
     font-size: 60px;
-    text-shadow: 2px 2px 8px #0066ff;
+    text-shadow: 2px 2px 8px #003366; /* Bleu foncé pour le texte */
 }
 
 .slogan {
     font-size: 28px;
     margin-top: 20px;
-    color: #0044cc;
+    color: #003366; /* Bleu plus foncé pour la police */
 }
 
 nav {
@@ -36,7 +35,7 @@ nav {
 nav a {
     margin: 0 20px;
     text-decoration: none;
-    color: #0066ff;
+    color: #003366; /* Bleu plus foncé pour le texte */
     font-size: 22px;
     position: relative;
 }
@@ -45,7 +44,7 @@ nav a::after {
     content: '';
     display: block;
     height: 2px;
-    background: #0066ff;
+    background: #003366;
     transition: width 0.3s;
     width: 0;
     margin: auto;
@@ -65,6 +64,6 @@ footer {
     padding: 30px;
     font-size: 16px;
     margin-top: 50px;
-    color: #0066ff;
-    background: rgba(0, 102, 255, 0.05);
+    color: #003366;
+    background: rgba(0, 51, 102, 0.05); /* Légère nuance bleue dans le footer */
 }
