@@ -1,57 +1,46 @@
 body {
     margin: 0;
     padding: 0;
-    font-family: 'Audiowide', cursive;
+    font-family: Helvetica, Arial, sans-serif;
     background-color: #ffffff; /* Fond blanc */
-    color: #003366; /* Bleu plus foncé pour la police */
+    color: #000000; /* Texte en noir */
 }
 
 header {
     text-align: center;
     padding: 80px 20px;
-    background: rgba(255, 255, 255, 0.2);
-    backdrop-filter: blur(10px);
-    border-bottom: 2px solid #003366;
+    background: #ffffff;
+    border-bottom: 2px solid #000000;
 }
 
 h1 {
     font-size: 60px;
-    text-shadow: 2px 2px 8px #003366; /* Bleu foncé pour le texte */
+    font-weight: bold;
+    margin-bottom: 10px;
 }
 
 .slogan {
-    font-size: 28px;
-    margin-top: 20px;
-    color: #003366; /* Bleu plus foncé pour la police */
+    font-size: 24px;
+    margin-top: 10px;
+    color: #333333;
 }
 
 nav {
     text-align: center;
-    background: rgba(247, 231, 206, 0.8);
+    background: #f4f4f4;
     padding: 15px;
-    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    border-bottom: 1px solid #ccc;
 }
 
 nav a {
     margin: 0 20px;
     text-decoration: none;
-    color: #003366; /* Bleu plus foncé pour le texte */
-    font-size: 22px;
-    position: relative;
+    color: #000000;
+    font-size: 18px;
 }
 
-nav a::after {
-    content: '';
-    display: block;
-    height: 2px;
-    background: #003366;
-    transition: width 0.3s;
-    width: 0;
-    margin: auto;
-}
-
-nav a:hover::after {
-    width: 100%;
+nav a:hover {
+    text-decoration: underline;
 }
 
 section {
@@ -62,8 +51,8 @@ section {
 footer {
     text-align: center;
     padding: 30px;
-    font-size: 16px;
-    margin-top: 50px;
-    color: #003366;
-    background: rgba(0, 51, 102, 0.05); /* Légère nuance bleue dans le footer */
+    font-size: 14px;
+    color: #666666;
+    background: #f4f4f4;
+    border-top: 1px solid #ccc;
 }
